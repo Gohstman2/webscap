@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, send_file, request
 from playwright.sync_api import sync_playwright
 import os
+import tempfile
 
 app = Flask(__name__)
 
